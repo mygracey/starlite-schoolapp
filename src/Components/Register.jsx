@@ -22,7 +22,7 @@ function register(e){
 e.preventDefault()
 
 if(email=="" || password=="" || cPassword==""){
-    setMesage("Please fill in all fields!")
+    setMessage("Please fill in all fields!")
 }
 else if(emailRegex.test(email) && password.length >6 && password.length <=12){
     createUserWithEmailAndPassword(auth,email,password)

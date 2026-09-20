@@ -16,20 +16,20 @@ function Footer(){
          
             <ul className="footer-navliks">
                 <h4>Featured Links</h4>
-                <li><Link to="#" className="link">Home</Link></li>
-                <li><Link to="#" className="link">About</Link></li>
-                <li><Link to="#" className="link">Contact</Link></li>
-                <li><Link to="#" className="link">PaySchoolFees</Link></li>
+                <li><Link to="/"className="link">Home</Link></li>
+                <li><Link to="/about" className="link">About</Link></li>
+                <li><Link to="/contact" className="link">Contact</Link></li>
+                <li><Link to="/login" className="link">PaySchoolFees</Link></li>
             </ul>
         </div>
         <div className="card card3">
           
             <ul className="privacy-policy-links">
                 <h4>Legal and Policy Links</h4>
-                <li><Link to="#" className="link">Terms and Conditions</Link></li>
-                <li><Link to="#" className="link">Cookie Policy</Link></li>
-                <li><Link to="#" className="link">Re-payment Policy</Link></li>
-                <li><Link to="#" className="link">Disclaimer</Link></li>
+                <li><Link to="/policy" className="link">Terms and Conditions</Link></li>
+                <li><Link to="/policy" className="link">Cookie Policy</Link></li>
+                <li><Link to="/policy" className="link">Privacy Policy</Link></li>
+                <li><Link to="/policy" className="link">Disclaimer</Link></li>
             
                 
             </ul>
@@ -38,10 +38,10 @@ function Footer(){
          
             <ul>
                 <h4>Contact us</h4>
-                <li>Physical Address</li>
-                <li>Email Address</li>
-                <li>Contact Mobile Number</li>
-                <li>WhatsApp</li>
+                <li>No.3, Demo mode street</li>
+                <li>demomode@demo.com</li>
+                <li>000-000-000</li>
+                <li>000-000-000</li>
             </ul>
         </div>
                 

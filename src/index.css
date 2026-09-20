@@ -1003,8 +1003,29 @@ margin-bottom:0.5rem;
   font-size:1rem;
   font-weight:bold;
 }
-     
 
+.policypage{
+  width:100vw;
+  min-height:100vh;
+  background:var(--secondary-color);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.policypage p{
+  width:800px;
+  text-align:justify;
+}
+
+.policypage h3{
+  color:white;
+}     
+
+.policypage h2{
+  color:yellow;
+  margin-bottom:1rem;
+}
 .footer{
   width:100vw;
   height:250px;
@@ -1167,6 +1188,21 @@ margin-bottom:0.5rem;
   .contact-details .card-right form{
     width:340px;
   }
+
+  .policypage{
+    max-width:1024px;
+
+  }
+   .policypage h2{
+    font-size:1.8rem;
+   }
+
+    .policypage h3{
+      font-size:1.4rem;
+    }
+   .policypage p{
+    width:600px;
+   }
  
 
  .footer{
@@ -1286,9 +1322,6 @@ margin-bottom:0.5rem;
 .paymentgateway form{
   width:350px;
 }
-
-
-
 .loginpage p{
   width:300px;
   text-align:center;
@@ -1296,6 +1329,34 @@ margin-bottom:0.5rem;
 .loginpage form{
   width:320px;
 }
+.logoutpage{
+  padding:1rem;
+}
+
+.logoutpage h2{
+  text-align:center;
+  font-size:1.5rem;
+}
+
+ .policypage{
+    max-width:600px;
+    padding-bottom:1rem;
+  }
+   .policypage h2{
+    font-size:1.5rem;
+    margin-top:7rem;
+   }
+
+    .policypage h3{
+      font-size:1.2rem;
+      margin-top:1rem;
+    }
+   .policypage p{
+    width:300px;
+    font-size:0.9rem;
+   }
+
+
 
  .footer{
   grid-template-columns: 1fr;

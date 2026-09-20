@@ -1,4 +1,4 @@
-
+import Policy from "./Components/Policy"
 import Logout from "./Components/Logout"
 import PaymentGateWay from "./Components/PaymentGateWay"
 import Contact from "./Components/Contact"
@@ -25,6 +25,8 @@ function App(){
             <Route path="/contact" element={<Contact/>} />
             <Route path="/payment" element={<PaymentGateWay/>} />
             <Route path="/logout" element={<Logout/>} />
+            <Route path="/policy" element={<Policy/>} />
+            
 
           </Routes>
             <Footer/>
