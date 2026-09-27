@@ -33,9 +33,7 @@ let emailRegex=/[a-zA-Z0-9]+@[a-z]+\.[a-z]+/;
         setMessage("Please wait a moment...")
         setTimeout(()=>{
             setMessage("Transaction Successful✅")
-            setTimeout(()=>{
-                navigate("/")
-            },5000)
+           
         },3000)
        
     }
