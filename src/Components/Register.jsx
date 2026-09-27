@@ -55,9 +55,9 @@ else{
                     <input type="text" placeholder="Enter your email" onChange={(e)=>{setEmail(e.target.value)}}/><br />
                 
                 
-                    <input type="text" placeholder="Enter your password" onChange={(e)=>{setPassword(e.target.value)}}/><br />
+                    <input type="password" placeholder="Enter your password" onChange={(e)=>{setPassword(e.target.value)}}/><br />
 
-                    <input type="text" placeholder="Confirm your password" onChange={(e)=>{setCpassword(e.target.value)}}/><br />
+                    <input type="password" placeholder="Confirm your password" onChange={(e)=>{setCpassword(e.target.value)}}/><br />
 
                     
                 

@@ -34,8 +34,8 @@ let emailRegex=/[a-zA-Z0-9]+@[a-z]+\.[a-z]+/;
         setTimeout(()=>{
             setMessage("Transaction Successful✅")
             setTimeout(()=>{
-                window.location.reload()
-            },4000)
+                navigate("/")
+            },5000)
         },3000)
        
     }
@@ -54,9 +54,9 @@ let emailRegex=/[a-zA-Z0-9]+@[a-z]+\.[a-z]+/;
                  
                  <div className="form-group">
 
-                      <input type="text" placeholder="Card holder's full name" onChange={(e)=>{setName(e.target.value)}}/>
+                      <input type="text" placeholder="Full name" onChange={(e)=>{setName(e.target.value)}}/>
 
-                      <input type="text" placeholder="Card holder's email" onChange={(e)=>{setEmail(e.target.value)}} />
+                      <input type="text" placeholder="Email" onChange={(e)=>{setEmail(e.target.value)}} />
 
                  </div>
             

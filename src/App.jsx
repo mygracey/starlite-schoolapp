@@ -1,3 +1,5 @@
+import ErrorPage from "./Components/Error"
+import ResetPassword from "./Components/ResetPassword"
 import Policy from "./Components/Policy"
 import Logout from "./Components/Logout"
 import PaymentGateWay from "./Components/PaymentGateWay"
@@ -26,6 +28,8 @@ function App(){
             <Route path="/payment" element={<PaymentGateWay/>} />
             <Route path="/logout" element={<Logout/>} />
             <Route path="/policy" element={<Policy/>} />
+            <Route path="/resetpassword" element={<ResetPassword/>} />
+            <Route path="*" element={<ErrorPage/>} />
             
 
           </Routes>

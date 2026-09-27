@@ -53,11 +53,12 @@ function login(e){
                     <input type="text" placeholder="Enter your email" onChange={(e)=>{setEmail(e.target.value)}}/><br />
                 
                 
-                    <input type="text" placeholder="Enter your password" onChange={(e)=>{setPassword(e.target.value)}}/><br />
+                    <input type="password" placeholder="Enter your password" onChange={(e)=>{setPassword(e.target.value)}}/><br />
 
                     
-                
+                 <Link to="/resetpassword" className="btn-reset">forgot password?</Link> 
                 <button type="submit" onClick={login}>Login</button>
+               
                 <div className="account">
                      <p>Don't have an account?</p>
                 <Link to="/register" className="create-one"> CreateOne.</Link>

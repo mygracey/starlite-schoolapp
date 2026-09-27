@@ -635,6 +635,16 @@ margin-bottom:0.5rem;
   cursor:pointer;
 }
 
+.loginpage form .btn-reset{
+  color:white;
+  display:block;
+  margin-top:1rem;
+  display:flex;
+  justify-self:end;
+  text-decoration:none;
+  cursor:pointer;
+}
+
 .loginpage h2{
   color:yellow;
   margin-bottom:1rem;
@@ -859,6 +869,61 @@ margin-bottom:0.5rem;
   color:yellow;
  }
 
+ .resetpassword{
+  width:100vw;
+  height:calc(100vh - 8rem);
+  display:flex;
+  background:var(--secondary-color);
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+ }
+
+ .resetpassword p{
+  color:white;
+ }
+
+ .resetpassword h3{
+  color:white;
+ }
+ .resetpassword form{
+  width:320px;
+  height:120px;
+  padding:1rem;
+  border-radius:4px;
+  background:var(--primary-color);
+  margin-top:1rem;
+ }
+  .resetpassword form input{
+    width:100%;
+    height:2.5rem;
+    border:0;
+    border-bottom:2px solid yellow;
+    overflow-y:hidden;
+    text-align:center;
+    font-size:1rem;
+    color:yellow;
+    background:transparent;
+    outline:0;
+  }
+
+  .resetpassword form input::placeholder{
+    color:yellow;
+    font-size:1rem;
+  }
+  .resetpassword form button{
+    padding:0.6rem 2rem;
+    background:yellow;
+    color:var(--primary-color);
+    display:flex;
+    justify-self: center;
+    border:0;
+    cursor:pointer;
+    margin-top:0.5rem;
+    font-size:1rem;
+    
+  }
+
  .footer-icon-wrapper{
   display: flex;
   justify-content: center;
@@ -866,7 +931,29 @@ margin-bottom:0.5rem;
   gap:1rem;
  }
 
- 
+.errorpage{
+  width:100vw;
+  height:calc(100vh - 8rem);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background: var(--secondary-color);
+}
+.errorpage h2{
+  font-size:2rem;
+  color:white;
+}
+.errorpage button{
+  padding:0.8rem 2rem;
+  background:yellow;
+  color:var(--primary-color);
+  border:none;
+  cursor:pointer;
+  margin-top:1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
  .footer-icon-wrapper p{
   width:100%;
   padding-top:0.5rem;
@@ -1304,9 +1391,33 @@ margin-bottom:0.5rem;
   width:320px;
 }
 
+.resetpassword{
+  max-width:600px;
+}
+
+.resetpassword h2{
+  text-align:center;
+}
+
+.resetpassword p{
+  text-align:center;
+  line-height:1.2;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.errorpage{
+  max-width:600px;
+}
+
+.errorpage h2{
+  font-size:1.3rem;
+  text-align:center;
+}
 .paymentgateway{
   max-width:600px;
 }
+
 
 .paymentgateway h2{
   font-size:1.2rem;
@@ -1318,7 +1429,9 @@ margin-bottom:0.5rem;
   display:flex;
   justify-self:center;
 }
-
+.paymentgateway form input::placeholder{
+  
+}
 .paymentgateway form{
   width:350px;
 }
