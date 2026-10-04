@@ -121,31 +121,31 @@
 }
 
 .slide.slide1{
-  background-image:url(../src/assets/images/elementaryschool-elementor-io-optimized.jpeg);
+  background:linear-gradient(rgba(0,0,0,0.4)),url(../src/assets/images/elementaryschool-elementor-io-optimized.jpeg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
 .slide.slide2{
-  background-image:url(../src/assets/images/artclass-elementor-io-optimized.jpeg);
+  background:linear-gradient(rgba(0,0,0,0.4)),url(../src/assets/images/artclass-elementor-io-optimized.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide.slide3{
-  background-image:url(../src/assets/images/sciencelab1-elementor-io-optimized.jpeg);
+  background:linear-gradient(rgba(0,0,0,0.4)),url(../src/assets/images/sciencelab1-elementor-io-optimized.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide.slide4{
-  background-image:url(../src/assets/images/basketball-hoop-elementor-io-optimized.jpeg);
+  background:linear-gradient(rgba(0,0,0,0.4)),url(../src/assets/images/basketball-hoop-elementor-io-optimized.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .slide.slide1{
-  background-image:url(../src/assets/images/elementaryschool-elementor-io-optimized.jpeg);
+  background:linear-gradient(0,0,0,0.4),url(../src/assets/images/elementaryschool-elementor-io-optimized.jpeg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
