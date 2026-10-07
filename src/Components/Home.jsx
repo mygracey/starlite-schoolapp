@@ -1,4 +1,4 @@
-import male1 from "../assets/images/facemale1-elementor-io-optimized.jpeg"
+import male1 from "../assets/images/man.jpg"
 import female1 from "../assets/images/facefemale1-elementor-io-optimized.jpeg"
 import female2 from "../assets/images/teacher3-elementor-io-optimized.jpeg"
 import male2 from "../assets/images/teacher8-elementor-io-optimized.jpeg"
